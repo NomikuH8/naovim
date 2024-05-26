@@ -1,0 +1,3 @@
+-- Require config
+require("init")
+

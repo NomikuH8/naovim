@@ -4,8 +4,9 @@ return {
   init = function()
     require("lualine").setup({
       options = {
-        theme = 'dracula-nvim',
+        theme = 'auto',
       },
     })
   end,
 }
+

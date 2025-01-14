@@ -4,3 +4,4 @@ return {
     require("ibl").setup()
   end,
 }
+

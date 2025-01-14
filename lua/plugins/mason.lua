@@ -4,3 +4,4 @@ return {
     require("mason").setup()
   end,
 }
+

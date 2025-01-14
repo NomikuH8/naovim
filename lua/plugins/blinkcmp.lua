@@ -22,6 +22,8 @@ return {
 
       ['<Up>'] = { 'select_prev', 'fallback' },
       ['<Down>'] = { 'select_next', 'fallback' },
+      ['<Right>'] = { 'show_documentation', 'fallback' },
+      ['<Left>'] = { 'hide_documentation', 'fallback' },
 
       ['<CR>'] = { 'accept', 'fallback' },
     },
@@ -30,7 +32,7 @@ return {
 
     completion = {
       list = {
-        selection = "manual",
+        selection = { preselect = false, auto_insert = false },
       },
     },
 
@@ -52,3 +54,4 @@ return {
   },
   opts_extend = { "sources.default" }
 }
+

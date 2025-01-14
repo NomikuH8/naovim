@@ -15,8 +15,12 @@ local map = vim.keymap.set
 
 -- There are keymaps in plugins/telescope.lua too
 
--- NvimTree
-map('n', '<leader>n', ':NvimTreeToggle<CR>', { desc = 'Toggle Tree' })
+-- ToggleTerm
+map('n', '<leader>t', ':ToggleTerm<CR>', { desc = 'Show Terminal' })
+
+-- NeoTree
+map('n', '<leader>n', ':Neotree toggle<CR>', { desc = 'Toggle Tree' })
+map('n', '<leader>b', ':Neotree toggle buffers<CR>', { desc = 'Toggle Tree For Buffers' })
 
 -- Bufferline
 map('n', 'gj', ':BufferLineMovePrev<CR>', { desc = 'Move tab to next' })

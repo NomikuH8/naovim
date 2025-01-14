@@ -5,3 +5,4 @@ return {
     require("notify").setup()
   end,
 }
+
